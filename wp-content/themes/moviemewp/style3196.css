@@ -1,0 +1,66 @@
+/*Theme Name: Movie Me Onepage WP
+Theme URI: http://themeforest.net/item/movie-me-one-page-responsive-wordpress-theme/9516307
+Description: This site is intended for the presentation of films, projects, videos, movies and much more. Pictures and videos easily change. These sites are very popular because they have a very large conversion. All content is used to attract attention to details of the products.
+Version: 2.0
+Author: webRedox WordPress team
+Author URI: http://www.webredox.com
+
+License:
+License URI:
+Tags: two-columns, fluid-layout, custom-background, custom-colors, featured-images, theme-options
+*/
+
+.wp-caption{}
+.wp-caption-text{}
+.sticky{}
+.gallery-caption{}
+.bypostauthor{}
+.alignright{ float: right; margin: 0 0 1em 1em;}
+.alignleft{}
+.aligncenter {display: block; margin: 0 auto; text-align: center;}
+
+/******************************************************************************************************/
+			/*Your CSS*/
+/******************************************************************************************************/
+.nomargin { margin: 0 !important;}
+.ccfic { margin-top: -35px;   position: absolute;  right: 0; z-index: 999;}
+.ccfic-text { font-size: 85%; font-variant: small-caps; margin-right: 18px; }
+.jetpack_subscription_widget #subscribe-text { margin-bottom: 10px;}
+.jetpack_subscription_widget #subscribe-email input { width: 100%; }
+.sidebar-widget input:focus { color: #bebebe !important; }
+.actor-info h5.sub-heading { display: none; }
+#blog .cfa-wrapper {
+    margin: 30px 0;
+}
+#blog .cfa-wrapper .container {
+    display: inline;
+}
+#blog .cfa-wrapper a.btn {
+    display: inline;
+}
+#blog blockquote::before, #reviews blockquote, #reviews blockquote::before, #about-sub blockquote::before {
+    color: rgb(190, 190, 190);
+}
+/* lang wrapper */
+#gtranslate_wrapper {
+    top: 1% !important;
+    right: 1% !important;
+}
+
+#gtranslate_wrapper a.glink {
+    padding-left: 3px;
+}
+
+#reviews {
+    background-color: #333333;
+}
+#contact-form-wrapper {
+    padding-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+    #gtranslate_wrapper {
+        top: 66px !important;
+        right: 10px !important;
+    }
+}
